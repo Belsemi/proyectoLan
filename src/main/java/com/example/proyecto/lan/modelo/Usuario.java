@@ -1,4 +1,4 @@
-package com.example.proyecto.lan.Modelo;
+package com.example.proyecto.lan.modelo;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "falta colocar")
+@Table(name = "datos")
 public class Usuario {
 
     @Id
@@ -27,9 +27,8 @@ public class Usuario {
     @Getter @Setter @Column(name = "efectivoTotal")
     private int efectivoTotal;
     @Getter @Setter @Column(name = "CyberPlanet")
-    private int CyberPlanet;
+    private int cyberPlanet;
     @Getter @Setter @Column(name = "restanteDinero")
     private int restanteDinero;
-
 
 }
